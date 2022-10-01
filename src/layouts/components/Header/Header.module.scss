@@ -40,12 +40,17 @@
 
 .logo-link {
     display: flex;
+    padding-right: 6px;
 }
 
 // Actions
 .actions {
     display: flex;
     align-items: center;
+    justify-content:space-around;
+}
+.inner-search{
+    padding-right: 18px;
 }
 
 .more-btn {
@@ -62,7 +67,7 @@
     font-size: 2.2rem;
     color: #161823;
     background-color: transparent;
-    padding: 4px 10px;
+    padding:12px;
     cursor: pointer;
 }
 
@@ -86,7 +91,7 @@
     height: 32px;
     object-fit: cover;
     border-radius: 50%;
-    margin-left: 14px;
+    margin-left: 12px;
     cursor: pointer;
 }
 .logo {

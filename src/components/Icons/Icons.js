@@ -1,12 +1,5 @@
 export const UploadIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
-    <svg
-        className={className}
-        width={width}
-        height={height}
-        viewBox="0 0 32 32"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className={className} width={width} height={height} viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -16,14 +9,7 @@ export const UploadIcon = ({ width = '3.2rem', height = '3.2rem', className }) =
 );
 
 export const MessageIcon = ({ width = '2.6rem', height = '2.6rem', className }) => (
-    <svg
-        className={className}
-        width={width}
-        height={height}
-        viewBox="0 0 48 48"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className={className} width={width} height={height} viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -33,14 +19,7 @@ export const MessageIcon = ({ width = '2.6rem', height = '2.6rem', className }) 
 );
 
 export const InboxIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
-    <svg
-        className={className}
-        width={width}
-        height={height}
-        viewBox="0 0 32 32"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className={className} width={width} height={height} viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -50,14 +29,7 @@ export const InboxIcon = ({ width = '3.2rem', height = '3.2rem', className }) =>
 );
 
 export const SearchIcon = ({ width = '2.4rem', height = '2.4rem', className }) => (
-    <svg
-        className={className}
-        width={width}
-        height={height}
-        viewBox="0 0 48 48"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className={className} width={width} height={height} viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -66,14 +38,7 @@ export const SearchIcon = ({ width = '2.4rem', height = '2.4rem', className }) =
     </svg>
 );
 export const HomeIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
-    <svg
-        className={className}
-        width={width}
-        height={height}
-        viewBox="0 0 48 48"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className={className} width={width} height={height} viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -83,14 +48,7 @@ export const HomeIcon = ({ width = '3.2rem', height = '3.2rem', className }) => 
 );
 
 export const HomeActiveIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
-    <svg
-        className={className}
-        width={width}
-        height={height}
-        viewBox="0 0 48 48"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className={className} width={width} height={height} viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -100,14 +58,7 @@ export const HomeActiveIcon = ({ width = '3.2rem', height = '3.2rem', className 
 );
 
 export const UserGroupIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
-    <svg
-        className={className}
-        width={width}
-        height={height}
-        viewBox="0 0 48 48"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className={className} width={width} height={height} viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -127,14 +78,7 @@ export const UserGroupIcon = ({ width = '3.2rem', height = '3.2rem', className }
 );
 
 export const UserGroupActiveIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
-    <svg
-        className={className}
-        width={width}
-        height={height}
-        viewBox="0 0 48 48"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className={className} width={width} height={height} viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path d="M25.5 17C25.5 21.1421 22.1421 24.5 18 24.5C13.8579 24.5 10.5 21.1421 10.5 17C10.5 12.8579 13.8579 9.5 18 9.5C22.1421 9.5 25.5 12.8579 25.5 17Z"></path>
         <path d="M7.10396 34.7906C8.78769 30.2189 12.8204 27 18.0009 27C23.1818 27 27.2107 30.2213 28.8958 34.7898C29.3075 35.906 28.6141 37 27.5 37H8.5C7.38629 37 6.69289 35.9067 7.10396 34.7906Z"></path>
         <path d="M40.6308 37H32C31.2264 34.1633 30.0098 31.5927 28.144 29.7682C29.5384 28.9406 31.1829 28.5 33 28.5C37.239 28.5 40.536 30.8992 41.9148 35.0108C42.2516 36.0154 41.5423 37 40.6308 37Z"></path>
@@ -143,14 +87,7 @@ export const UserGroupActiveIcon = ({ width = '3.2rem', height = '3.2rem', class
 );
 
 export const LiveIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
-    <svg
-        className={className}
-        width={width}
-        height={height}
-        viewBox="0 0 32 32"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className={className} width={width} height={height} viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -161,14 +98,7 @@ export const LiveIcon = ({ width = '3.2rem', height = '3.2rem', className }) => 
 );
 
 export const LiveActiveIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
-    <svg
-        className={className}
-        width={width}
-        height={height}
-        viewBox="0 0 48 48"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className={className} width={width} height={height} viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path d="M6.5 17.5714C6.5 14.7292 8.86029 12.5 11.6782 12.5H27.8621C30.6799 12.5 33.0402 14.7292 33.0402 17.5714V18.6843L36.745 15.9435C37.6399 15.2815 38.8324 15.1731 39.8318 15.6537C40.8365 16.1369 41.5 17.1486 41.5 18.2857V29.7143C41.5 30.8514 40.8365 31.8631 39.8318 32.3463C38.8324 32.8269 37.6399 32.7185 36.745 32.0565L33.0402 29.3158V30.4286C33.0402 33.2708 30.6799 35.5 27.8621 35.5H11.6782C8.86029 35.5 6.5 33.2708 6.5 30.4286V17.5714Z"></path>
         <path
             d="M23.25 23.134C23.9167 23.5189 23.9167 24.4811 23.25 24.866L17.25 28.3301C16.5833 28.715 15.75 28.2339 15.75 27.4641L15.75 20.5359C15.75 19.7661 16.5833 19.285 17.25 19.6699L23.25 23.134Z"
@@ -177,7 +107,7 @@ export const LiveActiveIcon = ({ width = '3.2rem', height = '3.2rem', className 
     </svg>
 );
 
-export const FavoritesIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+export const FavoritesIcon = ({ width = '2.4rem', height = '2.4rem', className }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -190,7 +120,7 @@ export const FavoritesIcon = ({ width = '3.2rem', height = '3.2rem', className }
         <path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path>
     </svg>
 );
-export const ShopManagerIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+export const ShopManagerIcon = ({ width = '2.4rem', height = '2.4rem', className }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -203,7 +133,7 @@ export const ShopManagerIcon = ({ width = '3.2rem', height = '3.2rem', className
         <path d="M19 13a1 1 0 00-1 1v1H6v-1a1 1 0 10-2 0v7a1 1 0 001 1h14a1 1 0 001-1v-7a1 1 0 00-1-1zm-1 7H6v-3h12v3zm-.15-17.53A1 1 0 0017 2H7a1 1 0 00-.85.47L2 9a3.77 3.77 0 001.12 2.09 3.47 3.47 0 002.35.91 3.51 3.51 0 003.26-2.23 3.51 3.51 0 006.53 0A3.51 3.51 0 0018.53 12c.866 0 1.7-.325 2.34-.91A3.77 3.77 0 0022 9l-4.15-6.53zM4.43 9l3.12-5h8.89l3.13 5H4.43z"></path>
     </svg>
 );
-export const CartIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+export const CartIcon = ({ width = '2.4rem', height = '2.4rem', className }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -214,5 +144,96 @@ export const CartIcon = ({ width = '3.2rem', height = '3.2rem', className }) => 
         height={height}
     >
         <path d="M9 22a2 2 0 100-4 2 2 0 000 4zm7 0a2 2 0 100-4 2 2 0 000 4zm5-17H5.665l-.687-3.21A1 1 0 004 1H1a1 1 0 000 2h2.191l2.831 13.21a.962.962 0 00.064.159c.017.053.038.105.063.155a.979.979 0 00.133.153.926.926 0 00.088.1c.058.041.12.077.185.105.034.022.07.042.107.06A.993.993 0 007 17h11a1 1 0 00.958-.713l3-10A1.001 1.001 0 0021 5zm-2.244 5H16V7h3.656l-.9 3zM7.819 15l-.6-3H9v3H7.819zM11 12h3v3h-3v-3zm0-2V7h3v3h-3zM9 7v3H6.82l-.6-3H9zm8.256 8H16v-3h2.156l-.9 3z"></path>
+    </svg>
+);
+export const StarIcon = ({ width = '1.6rem', height = '1.6rem', className }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="3 3 18 18"
+        aria-hidden="true"
+        focusable="false"
+        className={className}
+        width={width}
+        height={height}
+    >
+        <path d="M20.83,9.15l-6-.52L12.46,3.08h-.92L9.18,8.63l-6,.52L2.89,10l4.55,4L6.08,19.85l.75.55L12,17.3l5.17,3.1.75-.55L16.56,14l4.55-4Z"></path>
+    </svg>
+);
+export const AngleLeft = ({ width = '1.8rem', height = '1.8rem', className }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+        className={className}
+        width={width}
+        height={height}
+    >
+        <path d="M6.7 11.3L6 12l.7.7 4 4c.4.4 1 .4 1.4 0 .4-.4.4-1 0-1.4L9.8 13H17c.6 0 1-.4 1-1s-.4-1-1-1H9.8l2.3-2.3c.2-.2.3-.4.3-.7 0-.6-.4-1-1-1-.3 0-.5.1-.7.3l-4 4z"></path>
+    </svg>
+);
+export const AngleRight = ({ width = '1.8rem', height = '1.8rem', className }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+        className={className}
+        width={width}
+        height={height}
+    >
+        <path d="M17.3 12.7l.7-.7-.7-.7-4-4c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l2.3 2.3H7c-.6 0-1 .4-1 1s.4 1 1 1h7.2l-2.3 2.3c-.2.2-.3.4-.3.7 0 .6.4 1 1 1 .3 0 .5-.1.7-.3l4-4z"></path>
+    </svg>
+);
+export const HandMade = ({ width = '1.8rem', height = '1.8rem', className }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+        className={className}
+        width={width}
+        height={height}
+    >
+        <path
+            d="M10.313 10.252l1.86-3.45-1.328-1.32-3.307-3.307a.57.57 0 00-.788 0 .57.57 0 000 .75l3.098 3.57-.533.532-4.425-4.32a.577.577 0 00-.817 0 .577.577 0 000 .795l4.14 4.628-.525.532L3.825 4.83a.555.555 0 00-.825 0 .57.57 0 000 .75l3.6 4.17-.525.532L3 7.68a.578.578 0 00-.75 0 .578.578 0 000 .817l2.775 2.768L9.27 15.51a1.498 1.498 0 002.123 0l3.75-3.713.405-.405a1.5 1.5 0 00.36-1.537L13.5 3.885l-.45.15a.578.578 0 00-.382.487l.3 3.075-2.123 3.188-.532-.533z"
+            fill="#222"
+        ></path>
+    </svg>
+);
+export const Materials = ({ width = '1.8rem', height = '1.8rem', className }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+        className={className}
+        width={width}
+        height={height}
+    >
+        <path d="M18.1 6c.7 1.7.9 3.6.4 5.6-.8 3.4-3.5 6.1-6.9 6.9-2 .5-3.9.2-5.6-.4v1.4L7.5 21h12l1.5-1.5v-12L19.5 6h-1.4z"></path>
+        <path d="M9.5 2C5.4 2 2 5.4 2 9.5S5.4 17 9.5 17 17 13.6 17 9.5 13.6 2 9.5 2zM7.8 15c-.6-.2-1.2-.5-1.7-.9l8-8c.4.5.7 1.1.9 1.7L7.8 15zm3.4-11c.6.2 1.2.5 1.7.9l-8 8c-.4-.5-.7-1.1-.9-1.7L11.2 4zM9 3.8L3.8 9C4 6.2 6.2 4 9 3.8zm1 11.4l5.2-5.2c-.2 2.8-2.4 5-5.2 5.2z"></path>
+    </svg>
+);
+export const Visa = ({ width = '4.8rem', height = '4.8rem', className }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 48"
+        aria-hidden="true"
+        focusable="false"
+        className={className}
+        width={width}
+        height={height}
+        style=" fill:#000000;"
+    >
+        <path fill="#1565C0" d="M45,35c0,2.209-1.791,4-4,4H7c-2.209,0-4-1.791-4-4V13c0-2.209,1.791-4,4-4h34c2.209,0,4,1.791,4,4V35z"></path>
+        <path
+            fill="#FFF"
+            d="M15.186 19l-2.626 7.832c0 0-.667-3.313-.733-3.729-1.495-3.411-3.701-3.221-3.701-3.221L10.726 30v-.002h3.161L18.258 19H15.186zM17.689 30L20.56 30 22.296 19 19.389 19zM38.008 19h-3.021l-4.71 11h2.852l.588-1.571h3.596L37.619 30h2.613L38.008 19zM34.513 26.328l1.563-4.157.818 4.157H34.513zM26.369 22.206c0-.606.498-1.057 1.926-1.057.928 0 1.991.674 1.991.674l.466-2.309c0 0-1.358-.515-2.691-.515-3.019 0-4.576 1.444-4.576 3.272 0 3.306 3.979 2.853 3.979 4.551 0 .291-.231.964-1.888.964-1.662 0-2.759-.609-2.759-.609l-.495 2.216c0 0 1.063.606 3.117.606 2.059 0 4.915-1.54 4.915-3.752C30.354 23.586 26.369 23.394 26.369 22.206z"
+        ></path>
+        <path
+            fill="#FFC107"
+            d="M12.212,24.945l-0.966-4.748c0,0-0.437-1.029-1.573-1.029c-1.136,0-4.44,0-4.44,0S10.894,20.84,12.212,24.945z"
+        ></path>
     </svg>
 );

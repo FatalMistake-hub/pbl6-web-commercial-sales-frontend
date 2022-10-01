@@ -110,54 +110,37 @@ function Header() {
                         <img src={images.logo} alt="Etsy" className={cx('logo')} />
                     </Link>
 
-                    <Search />
+                    <div className={cx('inner-search')}><Search /></div>
 
                     <div className={cx('actions')}>
                         {currentUser ? (
                             <>
-                                <Tippy delay={[0, 50]} content="Upload video" placement="bottom">
+                                <Tippy delay={[0, 50]} content="Favourites" placement="bottom">
                                     <button className={cx('action-btn')}>
                                         <FavoritesIcon />
                                     </button>
                                 </Tippy>
-                                <Tippy delay={[0, 50]} content="Message" placement="bottom">
+                                <Tippy delay={[0, 50]} content="Shop manager" placement="bottom">
                                     <button className={cx('action-btn')}>
                                         <ShopManagerIcon />
                                     </button>
                                 </Tippy>
-                                <Tippy delay={[0, 50]} content="Inbox" placement="bottom">
-                                    <button className={cx('action-btn')}>
+                                <Tippy delay={[0, 50]} content="Cart" placement="bottom">
+                                    <Link className={cx('action-btn')} to={config.routes.cart}>
                                         <CartIcon />
                                         <span className={cx('badge')}>12</span>
-                                    </button>
+                                    </Link>
                                 </Tippy>
                             </>
                         ) : (
                             <>
-                                <Button text>Register</Button>
+                                {/* <Button text>Register</Button> */}
                                 <Button primary onClick={togglePopup}>
                                     Sign In
                                 </Button>
 
                                 {isLogin && (
-                                    <PopupForm
-                                        content={
-                                            <>
-                                                <b>Design your Popup</b>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                                    culpa qui officia deserunt mollit anim id est laborum.
-                                                </p>
-                                                <button>Test button</button>
-                                            </>
-                                        }
-                                        handleClose={togglePopup}
-                                    />
+                                    <PopupForm handleClose={togglePopup} />
                                 )}
                             </>
                         )}
@@ -166,7 +149,7 @@ function Header() {
                             {currentUser ? (
                                 <Image
                                     className={cx('user-avatar')}
-                                    // src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/623d4b2d95cec.png"
+                                    src="https://img2.etsystatic.com/site-assets/images/global-nav/no-user-avatar.svg"
                                     alt="Nguyen Van A"
                                 />
                             ) : (

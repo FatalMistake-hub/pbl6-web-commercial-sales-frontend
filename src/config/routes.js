@@ -8,6 +8,9 @@ const routes = {
     search: '/search',
     shop: '/shop',
     favorites: '/favorites',
+    forgotpassword: '/forgotpassword',
+    resetpassword: '/resetpassword',
+    detail: '/detail',
 };
 
 export default routes;

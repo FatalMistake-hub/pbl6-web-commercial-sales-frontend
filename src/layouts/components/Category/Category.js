@@ -6,28 +6,28 @@ function Category() {
     return (
         <div className={cx('wrapper')}>
             <ul className={cx('bar')}>
-                <li>
+                <li className={cx('item')}>
                     <span className={cx('content')} >Jewelry & Accessories</span>
                 </li>
-                <li>
+                <li className={cx('item')}>
                     <span className={cx('content')}>Clothing & Shoe</span>
                 </li>
-                <li>
+                <li className={cx('item')}>
                     <span className={cx('content')}>Home & Living</span>
                 </li>
-                <li>
+                <li className={cx('item')}>
                     <span className={cx('content')}>Wedding & Party</span>
                 </li>
-                <li>
+                <li className={cx('item')}>
                     <span className={cx('content')}>Toy & Entertainment</span>
                 </li>
-                <li>
+                <li className={cx('item')}>
                     <span className={cx('content')}>Art & Collections</span>
                 </li>
-                <li>
+                <li className={cx('item')}>
                     <span className={cx('content')}>Crafting & Tool</span>
                 </li>
-                <li>
+                <li className={cx('item')}>
                     <span className={cx('content')}>Vintage</span>
                 </li>
             </ul>
